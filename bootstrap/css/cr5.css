@@ -1,0 +1,90 @@
+/* CSS for codereading5 theme */
+
+/* Page Editor */
+textarea#editor-textarea {
+    display: block;
+    width: 100%;
+}
+
+/* TableOfContents macro */
+div.table-of-contents, div.contents {
+    border: 1px solid #bbbbbb;
+    background-color: #eeeeee;
+    text-align: left;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.5em 0.75em 0.5em 0.5em;
+    display: inline-table;
+}
+
+/* for diff parser */
+div.codearea pre span.DiffAdded   {color: #4876FF;}
+div.codearea pre span.DiffRemoved {color: #FF0000;}
+div.codearea pre span.DiffChanged {color: #FF7F50;}
+div.codearea pre span.DiffSeparator {color: #228B22; font-weight: bold}
+
+/* diff */
+.diff {
+    width:99%;
+    table-layout: fixed;
+}
+
+.diff-header {
+    font-weight: bold;
+}
+
+.diff-title {
+    background-color: #C0C0C0;
+}
+
+.diff-added {
+    background-color: #E0FFE0;
+    vertical-align: top;
+    width: 50%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: courier, monospace;
+}
+
+.diff-removed {
+    background-color: #FFFFE0;
+    vertical-align: top;
+    width: 50%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: courier, monospace;
+}
+
+.diff-added span {
+    background-color: #80FF80;
+}
+
+.diff-removed span {
+    background-color: #FFFF80;
+}
+
+td.diff-info {
+    vertical-align: top;
+}
+
+div.diff-info {
+    white-space: nowrap;
+}
+
+div.diff-info-rev-comment span.diff-info-value {
+    white-space: normal;
+}
+
+div.diff-info-header {
+    background-color: #E8E8E8;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    margin: -0.25em -0.5em;
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+td.diff-same {
+    text-align: center;
+    border: 0;
+}
+
