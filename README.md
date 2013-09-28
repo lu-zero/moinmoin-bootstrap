@@ -1,8 +1,8 @@
 moinmoin bootstrap theme
 ------------------------
 
-Theme prepared for wiki.libav.org and wiki.luminem.org, based on
-(codereading5)[https://bitbucket.org/speirs/codereading5/].
+Theme prepared for [Libav](http://wiki.libav.org) and [Luminem](http://wiki.luminem.org), based on
+[codereading5](https://bitbucket.org/speirs/codereading5/).
 
 Instructions
 ============
